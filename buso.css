@@ -5,6 +5,7 @@ body {
 	max-width: 1000px;
 	text-align: justify;
 	color: #522F00;
+	background-color: #FFF5E8;
 }
 
 p:first-letter {
@@ -18,9 +19,10 @@ header {
 	height: 250px; 
 }
 
-h1{
+h1, h2{
 	color: #B16400;
 }
+
 
 img {
 	border: 2px solid #FFEBD0;
@@ -29,6 +31,7 @@ img {
 	margin: 5px 15px;
 	width: 15em; 
 	background-color: white;
+	min-width: 300px;
 }
 
 .balra {
@@ -45,6 +48,10 @@ q {
 
 li {
 	margin-bottom: 25px;
+	list-style-type: none;
+	padding-left: 20px;
+	background: url(jel.png) no-repeat left center;
+	background-size: 20px;
 }
 
 footer{
@@ -59,10 +66,7 @@ footer{
 	font-size: 0.8em;
 }
 
-a {
-	text-transform: uppercase;
-	text-decoration: none;
-}
+
 
 @media screen and (max-width:600px) {
   .balra, .jobbra {
